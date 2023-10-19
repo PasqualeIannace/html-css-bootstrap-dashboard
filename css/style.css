@@ -1,0 +1,24 @@
+.secondNav,
+.mainPage {
+    height: 100vh;
+}
+
+.sideBar {
+    width: 4em;
+}
+
+.mainPage {
+    width: calc(100% - 4em);
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 768px) {
+    .sideBar {
+        width: 10em;
+    }
+
+    .mainPage {
+        width: calc(100% - 10em);
+    }
+}
