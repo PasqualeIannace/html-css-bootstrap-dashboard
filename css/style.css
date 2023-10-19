@@ -1,14 +1,31 @@
-.secondNav,
-.mainPage {
+.main {
     height: 100vh;
+}
+
+.mainPage {
+    width: calc(100% - 4em);
+}
+
+/* Side Bar */
+.topSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sideBar {
     width: 4em;
 }
 
-.mainPage {
-    width: calc(100% - 4em);
+.sideButton {
+    align-items: center;
+}
+
+.displayText {
+    display: none;
+    color: white;
+    padding-left: 2em;
+    font-size: 1.2em;
 }
 
 /* MEDIA QUERY */
@@ -20,5 +37,9 @@
 
     .mainPage {
         width: calc(100% - 10em);
+    }
+
+    .displayText {
+        display: inline;
     }
 }
