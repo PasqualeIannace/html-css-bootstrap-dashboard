@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.botSide {
+    text-align: center;
+}
+
 .sideBar {
     width: 4em;
 }
@@ -28,6 +32,22 @@
     font-size: 1.2em;
 }
 
+.logoSmall {
+    max-width: 2em;
+}
+
+.logoBig {
+    display: none;
+    max-width: 6em;
+}
+
+    /* Search */
+
+#searchNav {
+    background: #E5E5E5;
+    border: none;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 768px) {
@@ -41,5 +61,17 @@
 
     .displayText {
         display: inline;
+    }
+
+    .newStudent {
+        order: 3;
+    }
+
+    .logoSmall {
+        display: none;
+    }
+
+    .logoBig {
+        display: inline-block;
     }
 }
