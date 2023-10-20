@@ -133,4 +133,8 @@
         display: inline-block;
     }
 
+    .barStatsIcon {
+        padding-right: 0.6em;
+    }
+
 }
