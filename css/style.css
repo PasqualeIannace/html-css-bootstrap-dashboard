@@ -48,6 +48,24 @@
     border: none;
 }
 
+/* Blue Zone */
+
+.boolPill {
+    background: #33303057;
+    font-size: 0.8em;
+    padding: 0.2em 0.9em;
+    margin: 0.1em;
+    white-space: nowrap;
+}
+
+.showPill {
+    display: none;
+}
+
+#borderWhite {
+    border: 1px solid white;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 768px) {
@@ -67,11 +85,14 @@
         order: 3;
     }
 
-    .logoSmall {
+    .logoSmall,
+    .hidePill {
         display: none;
     }
 
-    .logoBig {
+    .logoBig,
+    .showPill {
         display: inline-block;
     }
+
 }

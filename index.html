@@ -22,10 +22,6 @@
                     <img class="logoBig" src="./img/img/logo.svg" alt="">
                 </a>
                 <!-- Search -->
-                <!-- <form class="d-flex w-100" role="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                </form> -->
                 <form class="container-fluid">
                     <div class="input-group">
                       <span class="input-group-text" id="searchNav">
@@ -113,10 +109,12 @@
                 <!-- BLUE ZONE -->
                 <div class="container-fluid bg-primary py-4 text-white">
                     <div class="row">
-                        <div class="col-12 col-md-4 newStudent">
+                        <div class="col-12 col-md-4 newStudent pt-3">
                             <span>Nuovo Studente</span>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                            <button class="btn btn-primary" id="borderWhite" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+                            </button>
 
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                                 aria-labelledby="offcanvasRightLabel">
@@ -130,16 +128,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <span class="fs-3">Boolean</span>
-                            <span class="badge rounded-pill text-bg-secondary">Secondary</span>
-                            <span class="badge rounded-pill text-bg-secondary">Secondary</span>
+
+                        <div class="col-12 col-md-4 pt-3">
+                            <span class="fs-3 fw-semibold">Boolean</span>
+                            <span class="rounded-pill boolPill">Piano blaze</span>
+                            <span class="rounded-pill boolPill">3 app</span>
                             <i class="fa-thin fa-angles-right fa-fw" style="color: #ffffff;"></i>
-                            <span class="badge rounded-pill text-bg-secondary">Secondary</span>
-                            <span class="badge rounded-pill text-bg-secondary">Secondary</span>
-                            <span class="badge rounded-pill text-bg-secondary">Secondary</span>
+                            <span class="badge rounded-pill boolPill hidePill">
+                                <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+                            </span>
+                            <span class="rounded-pill boolPill showPill">Boolean mobile app</span>
+                            <span class="rounded-pill boolPill showPill">Boolean mobile app</span>
+                            <span class="rounded-pill boolPill showPill">Boolean mobile app</span>
                         </div>
-                        <div class="col-12 col-md-4">
+
+                        <div class="col-12 col-md-4 pt-3">
                             <span>Studenti online negli ultimi 30 minuti</span>
                             <h3>125</h3>
                         </div>
