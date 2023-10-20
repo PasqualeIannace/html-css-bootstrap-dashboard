@@ -66,6 +66,27 @@
     border: 1px solid white;
 }
 
+/* MAIN */
+
+.classAvatar {
+    width: 2em;
+}
+
+.borderPen {
+    border: 2px solid #6c757d;
+    border-radius: 0.3em;
+    padding: 0.2em;
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+.borderTrash {
+    padding: 0.2em 0.4em;
+    text-decoration: none;
+    border: 2px solid #6c757d;
+    border-radius: 0.3em;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 768px) {
